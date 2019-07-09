@@ -1,0 +1,146 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: .95;
+}
+a.nav-link {
+  color: white !important;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 20px
+}
+a.navbar-brand{
+  font-weight: bold;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 30px;
+
+}
+
+button.btn.btn-outline-success{
+  color:#F0386B;
+border: 1px solid #F0386B;
+background-color: white;
+font-weight: bold;
+}
+
+nav a i {
+  color:#FFD0D9 ;
+  font-size: 25px;
+}
+
+div.img img{
+  width: 80%;
+
+}
+div.img{
+width: 30%;
+}
+div.datos{
+  text-align: center;
+  font-family: 'Inconsolata', sans-serif;
+  font-weight: bold;
+  width: 50%;
+}
+h2{
+  margin-top: -3%;
+  font-weight: bold;
+  font-family: "Playfair display",sans-serif;
+  padding: 1%;
+}
+i{
+  color:#FF6978;
+}
+div.comprar{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin:4%;
+  justify-content: space-around;
+  box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+  padding: 2%;
+  background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+}
+
+h1{
+  font-family: "Playfair Display";
+  text-align: center;
+  margin-top: 4%;
+}
+button{
+  background-color: white;
+  font-family: "Oswald", monospace;
+  padding: 1%;
+}
+
+div.info{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 80%;
+  margin: 2% auto;
+  background: repeating-linear-gradient(
+  45deg,
+  rgba(0, 0, 0, 0) 20px,
+  rgba(0, 0, 0, 0) 40px,
+  #E3FDF5 40px,
+  #E3FDF5 60px
+);
+padding: 2%;
+}
+ div.secciones button{
+width: 100%;
+padding: 3%;
+font-size: 159%;
+background-color: white;
+font-family: "Oswald", monospace;
+margin: 0 auto;
+display: block;
+}
+div.secciones{
+display: flex;
+justify-content: space-around;
+width: 80%;
+margin: 0 auto;
+}
+div.secciones a{
+  text-decoration: none;
+}
+
+@media only screen and (min-device-width : 375px)
+and (max-device-width : 667px) {
+div.info{
+  display: block;
+ width: 73%;
+}
+
+div.img{
+  display: none;
+}
+div.datos{
+  margin: 0 auto;
+  width: 100%;
+}
+h2{
+  padding: 0%;
+}
+div.secciones{
+  display: block;
+}
+div.comprar{
+  width: 90%;
+}
+h1{
+  font-size: 162%;
+}
+div.secciones button{
+  font-size: 100%;
+}
+footer ul{
+  padding bottom: 0px;
+  margin-bottom: 0px;
+}
+}

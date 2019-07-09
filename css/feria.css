@@ -1,0 +1,223 @@
+body{
+  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: .95;
+}
+header {
+  width: 100%;
+}
+
+a.nav-link {
+  color: white !important;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 20px
+}
+a.navbar-brand{
+  font-weight: bold;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 30px;
+
+}
+
+button.btn.btn-outline-success{
+  color:#F0386B;
+border: 1px solid #F0386B;
+background-color: white;
+font-weight: bold;
+}
+
+nav a i {
+  color:#FFD0D9 ;
+  font-size: 25px;
+}
+div.inicio {
+  box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+  padding: 2%;
+  background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+  width: 90%;
+  margin: 21px auto;
+  height: 10%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+div.imagen{
+  display: none;
+}
+div.info h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: bold;
+  padding-top: 4%;
+  font-size: 215%;
+    color:#3e403f;
+}
+div.info h2 {
+  font-family: "Inconsolata", sans-serif;
+  width: 80%;
+  font-weight: bold;
+  margin: 3% auto;
+  font-size: 127%;
+  color: #3e403f;
+}
+
+div.info i {
+    font-size: 15px;
+    color: rgba(255, 145, 170, 1);
+    padding-right: 5%;
+}
+
+.ver_mas {
+    font-size: 12px;
+    display: block;
+    padding-top: 3%;
+}
+
+div.info a{
+text-decoration: none;
+font-family: "Inconsolata", sans-serif;
+width: 65%;
+margin: 0 auto;
+font-size: 78%;
+color: #3e403f;
+}
+div.botones {
+  display: flex;
+  justify-content: space-around;
+}
+
+a#dropdownMenuLink.btn {
+  background-color: white;
+  padding: 8%;
+  color: #3e403f;
+  border: 2px solid #FFE6FA;
+  font-family: "Inconsolata", sans-serif;
+  font-weight: bold;
+}
+hr {
+  border-top: 2px solid #21252966;
+  width: 90%;
+  margin: 21px auto;
+}
+div.productos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+div.producto{
+  overflow: hidden;
+}
+div.productos button{
+  background-color: white;
+  padding: 2%;
+  color:black;
+  border: 2px solid white;
+  font-family: "Inconsolata", sans-serif;
+  font-weight: bold;
+  margin: 0 auto;
+}
+div.mapa{
+  display: none;
+}
+div.card{
+  border-radius: 13px 13px;
+  border:2px solid #E3FDF5;
+  padding-bottom: 2%;
+  width: 46%;
+  margin: 2%;
+  float: left;
+}
+div.card img{
+  height: 30vh;
+}
+div.card p{
+  font-family: "Inconsolata", sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  text-align: center;
+}
+div.card h3{
+  font-family: "Inconsolata", sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  text-align: center;
+}
+h3.precio{
+  font-size: 140%;
+}
+
+div.comprar{
+  margin: 0 auto;
+  display: block;
+}
+div.comprar button{
+border: 3px solid #FF6978;
+margin-top: 5%;
+border-radius: 13px 13px;
+text-decoration: none;
+}
+footer ul li {
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+  background-color: #FF6978;
+  color: black;
+  margin-top: 1%;
+}
+
+footer ul {
+  padding-inline-start: 0px;
+   margin-bottom: 0px;
+}
+
+@media (min-width: 940px){
+div.productos{
+  width: 90%;
+margin: 0 auto;
+}
+footer ul li{
+  width: 19%;
+  float: left;
+  margin: 3% 3%;
+ border-radius: 13px 13px;
+ padding: 1%;
+}
+footer ul{
+  padding-bottom: 5%;
+  margin: 0 auto;
+}
+div.card{
+  width: 20%;
+  float: left;
+}
+div.inicio{
+  padding: 0;
+}
+div.info h1{
+  font-size: 250%;
+}
+div.info i{
+  display: none;
+}
+div.info h2{
+  font-size: 100%;
+}
+div.info a{
+  font-size: 97%;
+}
+div.imagen img{
+  width: 45%;
+  border-radius: 51%;
+}
+div.imagen{
+display: block;
+margin-left: -15%;
+}
+
+}

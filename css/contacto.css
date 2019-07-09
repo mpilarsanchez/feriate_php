@@ -1,0 +1,122 @@
+a.nav-link {
+  color: white !important;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 20px
+}
+a.navbar-brand{
+  font-weight: bold;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 30px;
+
+}
+
+button.btn.btn-outline-success{
+  color:#F0386B;
+border: 1px solid #F0386B;
+background-color: white;
+font-weight: bold;
+}
+
+nav a i {
+  color:#FFD0D9 ;
+  font-size: 25px;
+}
+body{
+  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: .95;
+
+}
+.formulario{
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+}
+div.formulario header{
+  text-align: center;
+}
+.formulario h2{
+  font-size: 248%;
+    font-family: 'Playfair Display', serif;
+    color: #3e403f;
+}
+
+.formulario p{
+  letter-spacing: 0.05em;
+      font-family: 'Oswald', sans-serif;
+      font-size: 117%;
+      width: 100%;
+      color: #3e403f;
+      text-align: center;
+      margin-bottom: 0%;
+      margin-top: 2%;
+
+}
+div.field-set input{
+    width: 80%;
+    border: 0px;
+}
+textarea{
+      width: 80%;
+      border: 0px;
+      margin: 3%
+}
+input#txt-input{
+  font-size: 117%;
+  font-family: 'Playfair Display', serif;
+  padding: 5%;
+
+}
+textarea{
+  font-size: 117%;
+  font-family: 'Playfair Display', serif;
+  padding: 5%;
+}
+div.field-set button.log-in{
+      width: 80%;
+      font-family: 'Playfair Display', serif;
+      padding: 0%;
+      margin-top: 0%;
+      background-color: white;
+      font-size: 250%;
+      font-weight: bold;
+      color: #3e403f;
+}
+
+div.redes{
+  display: flex;
+  justify-content: space-around;
+}
+div.redes i{
+  font-size: 40px;
+  color: #3e403f;
+  margin-top: 4%;
+}
+@media (min-width: 940px){
+.formulario{
+  margin: 2% auto;
+}
+div.field-set input{
+    width: 40%;
+}
+textarea{
+      width: 40%;
+      padding: 0%;
+}
+input#txt-input{
+  padding: 1%;
+}
+div.field-set button.log-in{
+      width: 40%;
+}
+div.redes{
+  width: 40%;
+  margin: 0 auto;
+}
+}

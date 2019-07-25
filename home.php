@@ -11,29 +11,9 @@
       <header>
         <?php include("header.php") ?>
         </header>
-           <div class="head">
-             <div class="leyenda">
-               <h2>PUBlICA TU FERIA</h2>
-               <h3>y compartila con tus clientes, ellos reservan los productos y los retiran ese dia!</h3>
-             </div>
-                <?php if(estaLogueado()):?>
-                   <a href="crear_feria.php"><button id="boton" type="button" name="button">CREA TU FERIA!!!!</button></a>
-                <?php endif ?>
-                <?php if(!estaLogueado()):?>
-                  <a href="login.php"><button id="boton" type="button" name="button">Crea tu feria!</button></a>
-                <?php endif ?>
-             <div class="lista">
-               <ul>
-                 <li><i class="fas fa-star-of-life"></i>
-                <span> Crea</span> tu feria</li>
-                 <li><i class="fas fa-star-of-life"></i><span> Publica</span> lo que no usas</li>
-                 <li><i class="fas fa-star-of-life"></i><span> Gestiona</span> las reservas</li>
-                 <li><i class="fas fa-star-of-life"></i><span> Ahorra</span> tiempo</li>
-                 <a href="preguntas.php"><button type="button" name="button">MAS INFO!</button></a>
-               </ul>
-             </div>
-             </div>
-             <hr>
+        <div class="encabezado">
+            <?php include("slides.php") ?>
+        </div>
       <main>
           <h1 class="titulo">CATEGORIAS</h1>
           <div class="categorias">

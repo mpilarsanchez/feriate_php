@@ -1,6 +1,7 @@
 <?php
 
 require_once("./resources/funciones_usuarios.php");
+require_once("./resources/funciones_carrito.php");
 
 $usuarioLogueado = traerUsuarioLogueado();
 ?>
@@ -16,6 +17,7 @@ $usuarioLogueado = traerUsuarioLogueado();
     <link href="https://fonts.googleapis.com/css?family=Cookie|Inconsolata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur">
     <script src="https://kit.fontawesome.com/14dd9125ec.js"></script>
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/perfil.css">
     <title>Perfil</title>
   </head>
@@ -26,36 +28,36 @@ $usuarioLogueado = traerUsuarioLogueado();
   <main>
     <div class="info">
           <div class="img">
-            <?php if ($usuarioLogueado != null) : ?>
-            <img src="img_user/<?=$usuarioLogueado["avatar"]?>" alt="" class="img-thumbnail">
-            <?php endif; ?>
+            <?php if ($usuarioLogueado != null && $usuarioLogueado["avatar"]!= null ):?>
+              <img src="img_user/<?=$usuarioLogueado["avatar"]?>" alt="img-thumbnail">
+            <?php endif ?>
             <?php if ($usuarioLogueado["avatar"] == null) : ?>
             <img src=".\img_user\usuaria.jpg" alt="" class="img-thumbnail">
             <?php endif; ?>
    </div>
     <div class="datos">
         <h1><?php if ($usuarioLogueado != null) : ?>
-          <h2 class="title">Bienvenida <?=$usuarioLogueado["nombre"]?></h2>
+          <h2 class="title">Bienvenida <?=$usuarioLogueado["us_nombre"]?></h2>
             <?php else: ?>
             <?php header("location: login.php") ?>
             <?php endif; ?></h1>
             <?php if ($usuarioLogueado != null) : ?>
-              <h4><?=$usuarioLogueado["email"]?></h4>
+              <h4><?=$usuarioLogueado["us_email"]?></h4>
             <?php endif; ?>
             <h6>Registrada desde 1/04/2018</h6>
-        <button type="button" name="button">Editar informacion<i class="fas fa-user-edit"></i></button>
+        <button type="button" name="button">Editar informacion  <i class="fas fa-user-edit"></i></button>
      </div>
     </div>
    <div class="secciones">
      <div class="comprar">
         <h1>Gestiona tus ferias..</h1>
-        <a href="mis_ferias.php?id=<?php echo traerUsuarioLogueado()["id"] ?>"><button type="button" name="button">Editar ferias <i class="fas fa-store"></i></button></a>
+        <a href="mis_ferias.php?id=<?php echo traerUsuarioLogueado()["us_id"] ?>"><button type="button" name="button">Editar ferias <i class="fas fa-store"></i></button></a>
         <a href="crear_feria.php">  <button type="button" name="button">Crea una feria! <i class="fas fa-store"></i></button></a>
      </div>
      <div class="comprar">
         <h1>.. o tus compras</h1>
-        <a href="carrito.php?id=<?php ?>"><button type="button" name="button">Mi carrito<i class="fas fa-shopping-cart"></i></button></a>
-        <a href="carrito.php?id=<?php ?>"><button type="button" name="button">Ver mis medios de pago<i class="fas fa-shopping-cart"></i></button></a>
+        <a href="carrito.php?id=<?php  echo traerCarrito( traerUsuarioLogueado()["id"] ) ?>"><button type="button" name="button">Mi carrito<i class="fas fa-shopping-cart"></i></button></a>
+        <a href="http://www.mercadopago.com.ar" target="_blank"><button type="button" name="button">Ver mis medios de pago<i class="fas fa-shopping-cart"></i></button></a>
      </div>
     </div>
   </main>

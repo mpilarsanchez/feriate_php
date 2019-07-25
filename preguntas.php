@@ -3,6 +3,7 @@
 
 <head>
   <?php include("head.php") ?>
+  <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/preguntas.css">
     <title>Login</title>
 </head>

@@ -24,6 +24,7 @@ if ($_POST) {
   <?php
   include("head.php");
    ?>
+   <link rel="stylesheet" href="./css/main.css">
    <link rel="stylesheet" href="./css/login.css">
 </head>
 <header>
@@ -50,7 +51,7 @@ if ($_POST) {
         <button class="log-in"> Log In </button>
       </div>
       <div class="other">
-        <button class="btn submits frgt-pass">Forgot Password</button>
+        <button class="btn submits frgt-pass">Olvide Contraseña</button>
         <button class="btn submits sign-up"><a href='registro.php'>Registrarme</a>
         </button>
       </div>

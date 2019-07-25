@@ -1,6 +1,4 @@
 
-
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -8,6 +6,7 @@
   include("head.php");
    ?>
 <link rel="stylesheet" href="./css/carrito.css">
+<link rel="stylesheet" href="./css/main.css">
 <link rel="stylesheet" href="./css/feria.css">
 </head>
 <body>
@@ -33,9 +32,9 @@
       <h3 class="talle"><b>Talle 39</b></h3>
     </div>
     <div class="comprar">
-  <button type="button" name="button"> <i class="fas fa-shopping-cart"></i> <a href="carrito.php">COMPRAR</a></button>
-  <button type="button" name="button"><i class="fas fa-tag"></i>Quitar del carrito</button>
-  <a class="ver_mas" href="#">Ver más del vendedor</a>
+  <button type="button" class="btn btn-light" name="button"> <i class="fas fa-shopping-cart"></i> <a href="carrito.php">COMPRAR</a></button>
+  <button type="button" name="button" class="btn btn-light"><i class="fas fa-tag"></i>  Quitar del carrito</button>
+  <a class="ver_mas" href="#">  Ver más del vendedor</a>
     </div>
   </div>
 </div>
@@ -49,8 +48,8 @@
     </div>
     <div class="comprar">
       <button type="button" name="button"> <i class="fas fa-shopping-cart"></i> <a href="carrito.php">COMPRAR</a></button>
-      <button type="button" name="button"><i class="fas fa-tag"></i>Quitar del carrito</button>
-      <a class="ver_mas" href="#">Ver más del vendedor</a>
+      <button type="button" name="button"><i class="fas fa-tag"></i>  Quitar del carrito</button>
+      <a class="ver_mas" href="#">  Ver más del vendedor</a>
     </div>
   </div>
 </div>
@@ -64,8 +63,8 @@
     </div>
     <div class="comprar">
       <button type="button" name="button"> <i class="fas fa-shopping-cart"></i> <a href="carrito.php">COMPRAR</a></button>
-      <button type="button" name="button"><i class="fas fa-tag"></i>Quitar del carrito</button>
-      <a class="ver_mas" href="#">Ver más del vendedor</a>
+      <button type="button" name="button"><i class="fas fa-tag"></i>  Quitar del carrito</button>
+      <a class="ver_mas" href="#">  Ver más del vendedor</a>
     </div>
   </div>
 </div>
@@ -79,8 +78,8 @@
     </div>
     <div class="comprar">
       <button type="button" name="button"> <i class="fas fa-shopping-cart"></i> <a href="carrito.php">COMPRAR</a></button>
-      <button type="button" name="button"><i class="fas fa-tag"></i>Quitar del carrito</button>
-      <a class="ver_mas" href="#">Ver más del vendedor</a>
+      <button type="button" name="button"><i class="fas fa-tag"></i>  Quitar del carrito</button>
+      <a class="ver_mas" href="#">  Ver más del vendedor</a>
     </div>
   </div>
 </div>
@@ -94,8 +93,8 @@
     </div>
     <div class="comprar">
       <button type="button" name="button"> <i class="fas fa-shopping-cart"></i> <a href="carrito.php">COMPRAR</a></button>
-      <button type="button" name="button"><i class="fas fa-tag"></i>Quitar del carrito</button>
-      <a class="ver_mas" href="#">Ver más del vendedor</a>
+      <button type="button" name="button"><i class="fas fa-tag"></i>  Quitar del carrito</button>
+      <a class="ver_mas" href="#">  Ver más del vendedor</a>
     </div>
   </div>
 </div>
@@ -109,8 +108,8 @@
     </div>
     <div class="comprar">
       <button type="button" name="button"> <i class="fas fa-shopping-cart"></i> <a href="carrito.php">COMPRAR</a></button>
-      <button type="button" name="button"><i class="fas fa-tag"></i>Quitar del carrito</button>
-      <a class="ver_mas" href="#">Ver más del vendedor</a>
+      <button type="button" name="button"><i class="fas fa-tag"></i>  Quitar del carrito</button>
+      <a class="ver_mas" href="#">  Ver más del vendedor</a>
     </div>
   </div>
 </div>

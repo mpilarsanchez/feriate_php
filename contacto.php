@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald|Pathway+Gothic+One|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cookie|Inconsolata&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/14dd9125ec.js"></script>
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/contacto.css">
   </head>
   </head>

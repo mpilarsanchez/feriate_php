@@ -17,6 +17,7 @@ if ($_POST) {
   <?php
   include("head.php");
    ?>
+   <link rel="stylesheet" href="./css/main.css">
    <link rel="stylesheet" href="./css/registro.css">
    <title>Registro</title>
 </head>
@@ -51,13 +52,13 @@ if ($_POST) {
           <input type="password" class="form-control" id="pass_confirm" placeholder="Password" name="pass_confirm" required >
         </div>
       </div>
-      <div>
-        <input type="checkbox" id="novedades">
-        <label for="novedades">Quiero recibir novedades via email de Feriate.com
+      <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="notificaciones" name="notificaciones">
+      <label class="form-check-label" for="notificaciones">Quiero recibir novedades de Feriate!</label>
       </div>
-      <div>
-        <input type="checkbox" id="terminos_condiciones">
-        <label for="terminos_condiciones">Acepto <a href="/terminos_condiciones.php">Terminos y Condiciones</a></label>
+      <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="terminos_condiciones" placeholder="aceptar_terminos" name="aceptar_terminos" required>
+      <label class="form-check-label" for="terminos_condiciones">Acepto <a href="./terminos_condiciones.php">Terminos y Condiciones</a></label>
       </div>
       <button type="submit" class="btn btn-primary">Registrarme</button>
     </form>

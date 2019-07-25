@@ -7,13 +7,33 @@
     padding: 2%;
     background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
 }
-div.formulario header{
+ div.formulario header{
   text-align: center;
 }
 .formulario h2{
   font-size: 248%;
     font-family: 'Playfair Display', serif;
     color: #3e403f;
+}
+body h3{
+  letter-spacing: 0.05em;
+      font-family: 'Oswald', sans-serif;
+      font-size: 117%;
+      width: 100%;
+      color: #3e403f;
+      text-align: center;
+      margin-bottom: 0%;
+      margin-top: 2%;
+}
+body h5{
+  letter-spacing: 0.05em;
+      font-family: 'Oswald', sans-serif;
+      font-size: 117%;
+      width: 100%;
+      color: #3e403f;
+      text-align: center;
+      margin-bottom: 0%;
+      margin-top: 2%;
 }
 
 .formulario p{

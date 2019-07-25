@@ -1,36 +1,6 @@
-body{
-  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
-  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  opacity: .95;
-}
+
 header {
   width: 100%;
-}
-
-a.nav-link {
-  color: white !important;
-  font-family: 'Inconsolata', sans-serif;
-  font-size: 20px
-}
-a.navbar-brand{
-  font-weight: bold;
-  font-family: 'Inconsolata', sans-serif;
-  font-size: 30px;
-
-}
-
-button.btn.btn-outline-success{
-  color:#F0386B;
-border: 1px solid #F0386B;
-background-color: white;
-font-weight: bold;
-}
-
-nav a i {
-  color:#FFD0D9 ;
-  font-size: 25px;
 }
 div.inicio {
   box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
@@ -110,6 +80,8 @@ div.productos{
 }
 div.producto{
   overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
 }
 div.productos button{
   background-color: white;
@@ -123,11 +95,15 @@ div.productos button{
 div.mapa{
   display: none;
 }
+div.comprar button{
+  font-family: "Inconsolata", sans-serif;
+  background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+}
 div.card{
   border-radius: 13px 13px;
   border:2px solid #E3FDF5;
   padding-bottom: 2%;
-  width: 46%;
+  width: 100%;
   margin: 2%;
   float: left;
 }
@@ -146,50 +122,23 @@ div.card h3{
   font-size: 100%;
   text-align: center;
 }
-h3.precio{
-  font-size: 140%;
+div.card h4{
+  display: block;
+  width: 100%;
+  font-family: "Inconsolata", sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center;
 }
 
 div.comprar{
-  margin: 0 auto;
-  display: block;
-}
-div.comprar button{
-border: 3px solid #FF6978;
-margin-top: 5%;
-border-radius: 13px 13px;
-text-decoration: none;
-}
-footer ul li {
-  width: 100%;
-  list-style: none;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
-  font-size: 13px;
-  background-color: #FF6978;
-  color: black;
-  margin-top: 1%;
 }
 
-footer ul {
-  padding-inline-start: 0px;
-   margin-bottom: 0px;
-}
 
 @media (min-width: 940px){
-div.productos{
+div.producto{
   width: 90%;
-margin: 0 auto;
-}
-footer ul li{
-  width: 19%;
-  float: left;
-  margin: 3% 3%;
- border-radius: 13px 13px;
- padding: 1%;
-}
-footer ul{
-  padding-bottom: 5%;
   margin: 0 auto;
 }
 div.card{
